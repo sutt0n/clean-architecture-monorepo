@@ -1,0 +1,12 @@
+{
+  "name": "@clean-arch/root",
+  "private": true,
+  "devDependencies": {
+    "lerna": "^4.0.0"
+  },
+  "dependencies": {
+  },
+  "scripts": {
+    "start": "cd packages/ui && yarn start"
+  }
+}

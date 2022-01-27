@@ -1,0 +1,22 @@
+{
+  "name": "@clean-arch/business",
+  "version": "0.0.0",
+  "description": "> TODO: description",
+  "author": "Joseph \"jojo\" Sutton <ebwebdev@gmail.com>",
+  "homepage": "",
+  "license": "ISC",
+  "main": "",
+  "publishConfig": {
+    "registry": "http://registry.npmjs.org/"
+  },
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "dependencies": {
+    "@clean-arch/persistence": "^0.0.0",
+    "@craco/craco": "^6.4.3",
+    "joi": "^17.6.0",
+    "lodash": "^4.17.21",
+    "webpack": "^5.67.0"
+  }
+}

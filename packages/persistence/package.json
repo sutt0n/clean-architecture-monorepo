@@ -1,0 +1,20 @@
+{
+  "name": "@clean-arch/persistence",
+  "version": "0.0.0",
+  "description": "> TODO: description",
+  "author": "Joseph \"jojo\" Sutton <jojo.sutton@sciencelogic.com>",
+  "homepage": "",
+  "license": "ISC",
+  "publishConfig": {
+    "registry": "http://registry.npmjs.org/"
+  },
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "dependencies": {
+    "@craco/craco": "^6.4.3",
+    "joi": "^17.6.0",
+    "lodash": "^4.17.21",
+    "webpack": "^5.67.0"
+  }
+}
