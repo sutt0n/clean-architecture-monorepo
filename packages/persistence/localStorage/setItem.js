@@ -1,2 +1,2 @@
-export const setItem = ({ key, value }) =>
+module.exports.setItem = ({ key, value }) =>
   localStorage.setItem(key, JSON.stringify(value));

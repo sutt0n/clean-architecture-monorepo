@@ -2,11 +2,14 @@
   "name": "@clean-arch/root",
   "private": true,
   "devDependencies": {
+    "@babel/preset-env": "^7.16.11",
+    "babel-jest": "^27.4.6",
+    "jest": "^27.4.7",
     "lerna": "^4.0.0"
   },
-  "dependencies": {
-  },
+  "dependencies": {},
   "scripts": {
-    "start": "cd packages/ui && yarn start"
+    "start": "cd packages/ui && yarn start",
+    "test": "jest"
   }
 }

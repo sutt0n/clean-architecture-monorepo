@@ -1,4 +1,4 @@
-export const getItem = ({ key }) => {
+module.exports.getItem = ({ key }) => {
   const value = localStorage.getItem(key);
 
   if (value) {

@@ -9,12 +9,13 @@ import { applicationContext } from '../applicationContext';
 import { addTodoItemAction } from './actions/addTodoItemAction';
 import { updateTodoTitleAction } from './actions/updateTodoTitleAction';
 import { updateTodoDescriptionAction } from './actions/updateTodoDescriptionAction';
-// import { deleteTodoItemAction} from './actions/deleteTodoItemAction'
+import { deleteTodoItemAction } from './actions/deleteTodoItemAction';
 
 const actions = {
   addTodoItemAction,
   updateTodoTitleAction,
   updateTodoDescriptionAction,
+  deleteTodoItemAction,
 };
 
 export const config = {

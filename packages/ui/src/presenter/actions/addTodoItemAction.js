@@ -6,8 +6,6 @@ export const addTodoItemAction = ({ state, effects: { ...applicationContext }}) 
     title,
     description,
   });
-
-  console.log('le todos', todos)
-
+  
   state.todos = todos;
 }

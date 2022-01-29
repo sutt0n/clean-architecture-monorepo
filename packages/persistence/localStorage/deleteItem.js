@@ -1,1 +1,1 @@
-export const deleteItem = ({ key }) => localStorage.deleteItem(key);
+module.exports.deleteItem = ({ key }) => localStorage.deleteItem(key);

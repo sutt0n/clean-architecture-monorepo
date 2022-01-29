@@ -27,7 +27,6 @@ describe("addTodoItemInteractor", () => {
     expect(getItemStub).toHaveBeenCalled();
     expect(getItemStub).toHaveBeenCalledWith({
       key: "todos",
-      defaultValue: [],
     });
     expect(setItemStub).toHaveBeenCalled();
     expect(setItemStub).toHaveBeenCalledWith({
