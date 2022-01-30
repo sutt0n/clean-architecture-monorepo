@@ -9,9 +9,8 @@
     "lerna": "^4.0.0",
     "regenerator-runtime": "^0.13.9"
   },
-  "dependencies": {},
   "scripts": {
-    "start": "cd packages/ui && yarn start",
+    "start": "cd packages/ui && SKIP_PREFLIGHT_CHECK=true yarn start",
     "test": "jest"
   }
 }

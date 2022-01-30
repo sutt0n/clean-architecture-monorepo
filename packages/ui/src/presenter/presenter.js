@@ -17,6 +17,10 @@ const actions = {
 };
 
 export const config = {
+  onInitialize: ({ state, effects: applicationContext }) => {
+    const todos = applicationContext.getPersistence().getItem({ key: 'todos' });
+    state.todos = todos;
+  },
   state,
   actions,
   effects: applicationContext,
