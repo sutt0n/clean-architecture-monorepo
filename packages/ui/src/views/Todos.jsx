@@ -2,7 +2,6 @@ import * as React from 'react';
 import { useActions, useState } from '../presenter/presenter';
 
 const Todo = ({ todo }) => {
-  useState();
   return (
     <li>
       {todo.title} {todo.description}
