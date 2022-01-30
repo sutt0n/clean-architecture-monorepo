@@ -19,7 +19,7 @@ export class Entity {
       pick(this, Object.keys(this.validationRules))
     );
 
-    return isEmpty(validate.error) && isEmpty(validate.errors);
+    return isEmpty(validate.error);
   }
 
   validate() {
@@ -28,8 +28,12 @@ export class Entity {
     );
 
     if (validate.error) {
-      // TODO: return formatted
-      // throw new Error(validate.error);
+      return { 
+        given: validate.error._original, 
+        errors: validate.error.details.reduce((acc, err) => ({
+          [err.path.join('.')]: err.message,
+        }), {}),
+      };
     }
 
     return this;

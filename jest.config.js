@@ -4,7 +4,8 @@ module.exports = {
     "^.+\\.(js|jsx)$": "babel-jest",
   },
   transformIgnorePatterns: [
-    "<rootDir>.*(node_modules)(?!.*my-project-b.*).*$"
+    "<rootDir>.*(node_modules)(?!.*my-project-b.*).*$",
   ],
+  coveragePathIgnorePatterns: ["applicationContext.js"],
   collectCoverage: true,
 };
